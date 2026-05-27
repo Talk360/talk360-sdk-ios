@@ -1,0 +1,5 @@
+"sdk_error_loading_failed" = "Something went wrong. Please try again later.";
+"sdk_microphone_permission_alert_cancel" = "Cancel";
+"sdk_microphone_permission_alert_message" = "Microphone access is needed to make calls. Please enable it in Settings.";
+"sdk_microphone_permission_alert_open_settings" = "Open Settings";
+"sdk_microphone_permission_alert_title" = "Microphone Permission Required";
