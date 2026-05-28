@@ -6,7 +6,7 @@ let package = Package(
     name: "Talk360SDK",
     platforms: [.iOS(.v15)],
     products: [
-        .library(name: "Talk360SDK", targets: ["Talk360SDKWrapper"]),
+        .library(name: "Talk360SDK", targets: ["Talk360SDK", "Shared", "Talk360SDKWrapper"]),
     ],
     dependencies: [
         .package(url: "https://github.com/jitsi/webrtc.git", exact: "124.0.2"),
