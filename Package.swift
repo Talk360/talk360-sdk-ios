@@ -5,31 +5,6 @@ import PackageDescription
 let package = Package(
     name: "Talk360SDK",
     platforms: [.iOS(.v15)],
-    products: [
-        .library(name: "Talk360SDK", targets: ["Talk360SDK", "Shared", "Talk360SDKWrapper"]),
-    ],
-    dependencies: [
-        .package(url: "https://github.com/jitsi/webrtc.git", exact: "124.0.2"),
-    ],
-    targets: [
-        .binaryTarget(
-            name: "Talk360SDK",
-            url: "https://github.com/Talk360/talk360-sdk-ios/releases/download/v0.1.0-dev01/Talk360SDK.xcframework.zip",
-            checksum: "1a0d907e7c1f20c0c3dd6a989a6191f245fee335012376a1f700c9112eb87e5e"
-        ),
-        .binaryTarget(
-            name: "Shared",
-            url: "https://github.com/Talk360/talk360-sdk-ios/releases/download/v0.1.0-dev01/Shared.xcframework.zip",
-            checksum: "9e02f7cd70e7aca197a7b6a97d9a6073d5b1c6cf61823d94dbbcf6347239c985"
-        ),
-        .target(
-            name: "Talk360SDKWrapper",
-            dependencies: [
-                "Talk360SDK",
-                "Shared",
-                .product(name: "WebRTC", package: "webrtc"),
-            ],
-            path: "Sources/Talk360SDKWrapper"
-        ),
-    ]
+    products: [],
+    targets: []
 )
