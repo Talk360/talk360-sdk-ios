@@ -14,13 +14,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "_Talk360SDK",
-            url: "https://github.com/Talk360/talk360-sdk-ios/releases/download/v0.1.0-dev10/_Talk360SDK.xcframework.zip",
-            checksum: "2dfc8744f45bbfff6acaa48536c7a68fdbdc844727925931ff9759703cd9052d"
+            url: "https://github.com/Talk360/talk360-sdk-ios/releases/download/v0.1.0-dev11/_Talk360SDK.xcframework.zip",
+            checksum: "f6be1e9b3b1b446b59755be249ef47fff4add5d815ecdd0116e92d1952294dd5"
         ),
         .binaryTarget(
             name: "_Shared",
-            url: "https://github.com/Talk360/talk360-sdk-ios/releases/download/v0.1.0-dev10/Shared.xcframework.zip",
-            checksum: "249fa174352631e90a7b426acb69d7914f6f99ceb2cf451b41f99bb9fd759bef"
+            url: "https://github.com/Talk360/talk360-sdk-ios/releases/download/v0.1.0-dev11/Shared.xcframework.zip",
+            checksum: "aed184b97625cfaea3898cbfa9448dcf4c09a117d2b00633c6d86321d28db601"
         ),
         .target(
             name: "Talk360SDK",
